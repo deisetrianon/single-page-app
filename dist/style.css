@@ -1,0 +1,112 @@
+body {
+  background-color: #121618;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(img/header-img.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.link,
+.link:hover {
+  color: #BD0403;
+  text-decoration: none;
+}
+
+.shadow {
+  box-shadow: inset -20px -100px 80px -20px #121618;
+  -webkit-box-shadow: inset -20px -100px 80px -20px #121618;
+  -moz-box-shadow: inset -20px -100px 80px -20px #121618;
+  -o-box-shadow: inset -20px -100px 80px -20px #121618;
+}
+
+.bg-nav {
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+.btn-categories {
+  cursor: pointer;
+}
+
+.btn-categories:hover,
+.btn-categories:focus,
+.btn-categories:active {
+  background-color: transparent;
+  border: 1px solid #BD0403;
+  color: #BD0403;
+}
+
+.category-title {
+  color: #BD0403;
+}
+
+.img-effect {
+  -webkit-filter: grayscale(30%); 
+  filter: grayscale(30%);
+}
+
+.card-recipe-body {
+  background-color: #F2F2F2;
+}
+
+.hr-card {
+  border: 2px solid #BD0403;
+  border-radius: 2rem;
+}
+
+.card-recipe-title {
+  color: #141414;
+  font-size: 1rem;
+}
+
+.card-button {
+  background-color: #141414;
+  border: 0;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.card-button:hover {
+  background-color: #BD0403;
+  color: #141414;
+}
+
+.remove-button {
+  background-color: #BD0403;
+  border: 0;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.recipe-section {
+  background-color: #CDCDCD;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.recipe-banner {
+  height: 50vh;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meal Recipes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="/dist/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+</head>
+<body>
+  <header class="shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav text-white">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="/" class="navbar-brand text-center">MEAL RECIPES</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        </ul>
+        <div class="my-2 my-lg-0 text-white dropdown">
+          <span>Your Recipe Book:</span>
+          <button type="button" class="btn bg-transparent btn-recipes-book" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="/dist/img/recipe-book-img.png" width="40px" height="40px"><span class="recipes-counter badge badge-light m-1"></span>
+          </button>
+          <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid text-white bg-transparent">
+      <div class="container pl-4 text-center">
+        <h1 class="display-5 fw-600">More than 100 of the best meal recipes</h1>
+        <p class="lead fw-500">Choose a category and scroll down to see the recipes</p>
+      </div>
+      <div class="categories-section d-flex flex-wrap m-auto w-50"></div>
+      <div class="container pl-4 text-center mt-3">
+        <p class="lead fw-500">Make sure to add your favorite recipes to your recipe book</p>
+      </div>
+    </div>
+  </header>
+
+  <main></main>
+
+  <footer class="text-center text-light fw-300 p-4">
+    <small>API from <a href="https://www.themealdb.com/" class="link" target="_blank">The Meal DB</a> | Images from <a href="https://www.freepik.com/" class="link" target="_blank">Freepik</a></small>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/dist/api.js" type="text/javascript"></script>
+  <script src="/dist/templates.js" type="text/javascript"></script>
+  <script src="/dist/routes.js" type="text/javascript"></script>
+</body>
+</html>
