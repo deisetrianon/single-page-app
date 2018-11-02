@@ -30,8 +30,9 @@ function recipeId() {
 }
 
 function notFound(error) {
-  $('main').html = 'Not found!';
-  console.log(error);
+  $('main').html(`
+    <h1>Page not found!</h1>
+  `);
 }
 
 function redirectCategoryList(id) {
